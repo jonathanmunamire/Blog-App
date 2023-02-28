@@ -1,24 +1,199 @@
-# README
+<a name="readme-top"></a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-Things you may want to cover:
+Modify this file to match your project and remove sections that don't apply.
 
-* Ruby version
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-* System dependencies
+After you're finished please remove all the comments and instructions!
+-->
 
-* Configuration
+<!-- TABLE OF CONTENTS -->
 
-* Database creation
+# 📗 Table of Contents
 
-* Database initialization
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-* How to run the test suite
+<!-- PROJECT DESCRIPTION -->
 
-* Services (job queues, cache servers, search engines, etc.)
+# 📖 Blog App <a name="about-project"></a>
 
-* Deployment instructions
+> This project shows the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-* ...
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<!-- <details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details> -->
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Set up associations between models**
+- **Write SQL queries with Active Record**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [No live demo at the moment]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Node js installed on your computer
+- Npm Node package manager
+- Terminal
+- Rails installed
+- Ruby installed
+
+### Setup
+
+Clone this repository by using the command line :
+
+- `https://github.com/jonathanmunamire/Blog-App.git`
+
+### Install
+
+Install this project with:
+
+`npm gemfile`
+
+### Usage
+
+To run the project, execute the following command:
+
+`rails server`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Jonathan Munamire**
+
+- GitHub: [@jonathanmunamire](https://github.com/jonathanmunamire)
+- Twitter: [@amanimunamire](https://twitter.com/amanimunamire)
+- LinkedIn: [Jonathan Munamire](https://www.linkedin.com/in/jonathanmunamire/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Create a view and a controller**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please show your support by staring it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **How to use the project?**
+
+  - You can either fork the project or download to your local mechine.
+
+- **What is PostgreSQL**
+
+  - Is a free and open-source relational database management system that emphasizes extensibility and SQL compliance. It is known for its reliability, stability, and robust feature set, making it a popular choice for large and complex data workloads. It is often used for web and business applications, data warehousing, and scientific research.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
