@@ -10,6 +10,10 @@ RSpec.describe 'Posts', type: :request do
     it 'it renders index template' do
       expect(response).to render_template(:index)
     end
+
+    it 'should have a body' do
+      expect(response.body).to include('<h1>Show all posts</h1>')
+    end
   end
 
   describe 'GET /show' do
@@ -20,6 +24,10 @@ RSpec.describe 'Posts', type: :request do
 
     it 'it renders index template' do
       expect(response).to render_template(:show)
+    end
+
+    it 'should have a body' do
+      expect(response.body).to include('<h1>Show one specified post</h1>')
     end
   end
 end
