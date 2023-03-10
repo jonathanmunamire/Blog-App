@@ -1,0 +1,9 @@
+<div class="post">
+    <div class="post_flex">
+        <h4 class="small-heading">
+            Post #<%= "#{post.id}"%>
+        </h4>
+        <p class="comment-heading">Comments: <%= @post.comments_counter %>, Likes: <%= @post.likes_counter %></p>
+    </div>
+    <p><%= @post.text %></p>
+</div>

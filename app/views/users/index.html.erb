@@ -1,1 +1,12 @@
-<h1>Show all Users</h1>
+<% @users.each do |user| %>
+    <div class="user_card">
+        <div class="image_container">
+            <img class="image"src="<%= user.photo%>">
+        </div>
+        
+        <div class="details_card">
+            <p class="user_name"><%= link_to user.name, user_path(user.id) %></p>
+            <span class="counter">Number of posts: <%= user.posts_counter%></span>
+        </div>
+    </div> 
+<%end%>

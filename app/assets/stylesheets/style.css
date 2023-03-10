@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 150%;
+}
+
+div#container {
+  width: 760px;
+  margin: 0 auto;
+}
+
+div#header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+div#content {
+  float: left;
+  width: 450px;
+  padding: 10px;
+}
+
+div#content h3 {
+  margin-top: 15px;
+}
+
+ul#books {
+  list-style-type: none;
+}
+
+ul#books li {
+  line-height: 140%;
+}
+
+div#sidebar {
+  width: 200px;
+  margin-left: 480px;
+}
+
+ul#subjects {
+  width: 700px;
+  text-align: center;
+  padding: 5px;
+  background-color: #ececec;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+ul#subjects li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.user_card {
+  display: flex;
+  gap: 5vw;
+  height: 20vh;
+  width: 60vw;
+  margin: 2%;
+}
+
+.image_container {
+  width: 15vw;
+}
+
+.image {
+  height: 20vh;
+  width: 17vw;
+}
+
+.details_card {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.user_name {
+  padding: 3% 3% 0% 3%;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.counter {
+  padding: 3%;
+  margin-left: auto;
+  font-size: 15px;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  padding: 2%;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+.user {
+  display: flex;
+  gap: 5vw;
+}
+
+.bio {
+  width: 50vw;
+  border: 2px solid black;
+  padding: 3%;
+}
+
+.post_er {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  border: 2px solid black;
+  padding: 3%;
+  margin-bottom: 2%;
+}
+
+.comment-heading {
+  margin-left: auto;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  border: 2px solid black;
+  padding: 3%;
+  margin-bottom: 2%;
+}
+
+.post_flex {
+  display: flex;
+}

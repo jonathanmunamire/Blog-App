@@ -1,0 +1,7 @@
+<li class="post_er">
+    <h4 class="small-heading">
+        <%= link_to "Post ##{post.id}", user_post_path(post.author_id, post.id) %>
+    </h4>
+    <p><%= post.text %></p>
+    <p class="comment-heading">Comments: <%= post.comments_counter%>, Likes: <%= post.likes_counter %></p>
+</li>

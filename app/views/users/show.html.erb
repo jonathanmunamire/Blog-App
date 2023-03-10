@@ -1,1 +1,26 @@
-<h1>Show one specified user by id</h1>
+<head>
+  <%= stylesheet_link_tag 'style' %>
+</head>
+
+<section class="section">
+
+<% if @user.nil? %>
+  <h4>User not found</h4>
+<% else %>
+<div>
+  <%= render 'user', user: @user %>
+<div>
+
+<%= render 'bio' %>
+
+<ul>
+<% @user.recent_most_recent_posts.each do |post| %>
+  <%= render 'post', post: post %>
+<% end %>
+</ul>
+
+<% end %>
+<div class="button">
+  <button type="button"><%= link_to "See all posts", user_posts_path(user_id: @user.id) %></button>
+</div>
+</section>
