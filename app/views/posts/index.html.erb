@@ -1,1 +1,22 @@
-<h1>Show all posts</h1>
+<section class="section">
+<% if @user.nil? %>
+  <h4>User not found</h4>
+<% else %>
+<div>
+  <%= render partial: 'users/user', locals: { user: @user } %>
+<div>
+<% end %>
+
+<ul>
+<% @posts.each_with_index do |post, index| %>
+  <li>
+  <%= render partial: 'users/post', locals: { post: post, index: index } %>
+  <% if post.comments_counter > 0 %>
+          <% post.five_most_recent_comments.each do |comment| %>
+            <%= render 'comments', comment: comment, user: @user %>
+            <% end %>
+          <% end %>
+  </li>
+  <% end %>
+</ul>
+</section>
