@@ -11,6 +11,10 @@
   <%= render 'user', user: @user %>
 <div>
 
+<div class="create-btn">
+  <button><%= link_to 'Create post', new_user_post_path(user_id: @user.id) %></button>
+</div>
+
 <%= render 'bio' %>
 
 <ul>

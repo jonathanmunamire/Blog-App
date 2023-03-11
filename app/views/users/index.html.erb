@@ -6,7 +6,7 @@
         
         <div class="details_card">
             <p class="user_name"><%= link_to user.name, user_path(user.id) %></p>
-            <span class="counter">Number of posts: <%= user.posts_counter%></span>
+            <span class="counter">Number of posts: <%= user.posts.count%></span>
         </div>
     </div> 
 <%end%>
