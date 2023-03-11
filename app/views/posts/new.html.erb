@@ -1,0 +1,12 @@
+<h1>Create New Post</h1>
+<div class="create-container">
+  <%= form_with model: @post, url: user_posts_path, method: :post do |f|%>
+  <%= f.label :title %>
+  <%= f.text_field :title, placeholder: 'Title' %>
+  <br>
+  <%= f.label :text %>
+  <%= f.text_field :text, placeholder: 'Text' %>
+  <br>
+  <%= f.submit 'Create post'%>  
+  <%end%>
+</div>

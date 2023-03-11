@@ -6,3 +6,12 @@
             <% end %>
           <% end %>
 </section>
+<div class="like-btn">
+  <%= form_with model: @post, url: "./#{@post.id}/likes", method: :post do |f|%>
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <%= f.submit 'Like' %>
+  <%end%>
+  </div>
+  <div class="create-btn">
+  <button><%= link_to 'Create comment', new_user_post_comment_path(@user.id,@post.id) %></button>
+</div>
