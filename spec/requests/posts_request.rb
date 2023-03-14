@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
   describe 'GET /index' do
-    before(:example) { get('/users/1/posts') }
+    before(:example) { get('/users/12/posts') }
     it 'should return success status' do
       expect(response).to have_http_status(:ok)
     end

@@ -8,7 +8,7 @@
 <% end %>
 
 <ul>
-<% @posts.each_with_index do |post, index| %>
+<% @user.posts.each_with_index do |post, index| %>
   <li>
   <%= render partial: 'users/post', locals: { post: post, index: index } %>
   <% if post.comments_counter > 0 %>

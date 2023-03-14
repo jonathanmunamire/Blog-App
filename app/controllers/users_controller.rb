@@ -1,10 +1,9 @@
 class UsersController < ApplicationController
-  layout 'standard'
   def index
-    @users = User.all
+    @users = User.includes(:posts).order(created_at: :asc)
   end
 
   def show
-    @user = User.find_by(id: params[:id])
+    @user = User.includes(:posts, :comments).find_by(id: params[:id])
   end
 end
