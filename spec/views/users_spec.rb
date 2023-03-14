@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe User, type: :view do
   before :each do
-    @user1 = User.create(name: 'Tim', photo: 'https://images.unsplash.com/photo-1511384452836-6', bio: 'Teacher from Mexico.')
+    @user1 = User.create(name: 'Tim', photo: 'https://images.unsplash.com/photo-1511384452836-6',
+                         bio: 'Teacher from Mexico.')
     @user2 = User.create(name: 'Will', photo: 'https://unsplash.com/photos/F_-0BxGuVv1', bio: 'Teacher from Mexico.')
     @user1.posts.create(title: 'User1 Title', text: 'Body1')
     @user2.posts.create(title: 'User2 Title', text: 'Body2')
