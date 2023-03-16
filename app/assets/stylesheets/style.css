@@ -162,7 +162,7 @@ button {
   display: flex;
 }
 
-.field input[type="email"]{
+.field input[type="email"] {
   width: 40vw;
   height: 5vh;
   border: 2px solid black;
@@ -171,7 +171,7 @@ button {
   margin-bottom: 3vh;
 }
 
-.field input[type="password"]{
+.field input[type="password"] {
   width: 40vw;
   height: 5vh;
   border: 2px solid black;
@@ -180,11 +180,11 @@ button {
   font-family: 'Poppins', sans-serif;
 }
 
-.field input[type="email"]::placeholder{
+.field input[type="email"]::placeholder {
   font-family: 'Poppins', sans-serif;
 }
 
-.field input[type="password"]::placeholder{
+.field input[type="password"]::placeholder {
   font-family: 'Poppins', sans-serif;
 }
 
