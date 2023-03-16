@@ -44,8 +44,8 @@ div#header {
 
 div#content {
   float: left;
-  width: 450px;
-  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 div#content h3 {
