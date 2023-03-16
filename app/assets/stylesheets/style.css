@@ -44,8 +44,8 @@ div#header {
 
 div#content {
   float: left;
-  width: 450px;
-  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 div#content h3 {
@@ -160,4 +160,44 @@ button {
 
 .post_flex {
   display: flex;
+}
+
+.field input[type="email"] {
+  width: 40vw;
+  height: 5vh;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3vh;
+}
+
+.field input[type="password"] {
+  width: 40vw;
+  height: 5vh;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  margin-bottom: 3vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.field input[type="email"]::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+.field input[type="password"]::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+.actions input[type="submit"] {
+  border: 2px solid black;
+  background-color: #fff;
+  text-align: center;
+  width: 40vw;
+  font-family: 'Poppins', sans-serif;
+  padding: 1vh;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
