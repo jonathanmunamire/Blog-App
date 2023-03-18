@@ -1,6 +1,11 @@
 class PostsController < ApplicationController
   def index
     @user = User.includes(:posts, posts: [:comments]).find(params[:user_id])
+
+    respond_to do |format|
+      format.html 
+      format.json { render json: @user.posts }
+    end
   end
 
   def show
